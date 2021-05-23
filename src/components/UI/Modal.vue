@@ -28,9 +28,6 @@ export default {
       if (e.keyCode === 27) this.$emit("close");
     });
   },
-  data() {
-    return {};
-  },
 };
 </script>
 
