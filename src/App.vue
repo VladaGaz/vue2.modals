@@ -53,7 +53,6 @@
           <modalValidate
             v-show="modalValidate"
             @close="modalValidate = false"
-            :clearInput="clearInput"
           ></modalValidate>
         </div>
       </section>
@@ -72,7 +71,6 @@ export default {
   },
   data() {
     return {
-      clearInput: false,
       modalFirst: false,
       modalSecond: {
         show: false,
